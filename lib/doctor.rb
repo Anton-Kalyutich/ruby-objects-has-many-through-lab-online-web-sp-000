@@ -21,6 +21,10 @@ class Doctor
     Appintment.all.select {|ap| ap.doctor == self}
   end
   
+  def patients
+    songs.map {|song| song.genre}
+  end
+  
   
   
 end
