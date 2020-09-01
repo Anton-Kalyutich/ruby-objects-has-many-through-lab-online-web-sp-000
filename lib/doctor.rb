@@ -1,10 +1,15 @@
 class Doctor
   
-  attr_accessor 
+  attr_accessor :name
   
   @@all = []
   
   def self.all
     @@all
+  end
+  
+  def initialize(name)
+    @name = name
+    self.class.all << self
   end
 end
