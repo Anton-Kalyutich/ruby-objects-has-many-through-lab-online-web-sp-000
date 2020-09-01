@@ -21,7 +21,7 @@ class Patient
     Appintment.all.select {|ap| ap.patient == self}
   end
   
-  def patients
+  def doctors
     appointmens.map {|ap| ap.patient}
   end
   
