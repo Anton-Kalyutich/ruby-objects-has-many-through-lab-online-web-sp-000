@@ -18,7 +18,7 @@ class Doctor
   end
   
   def appointmens
-    Appintment.all.select {|song| song.artist == self}
+    Appintment.all.select {|ap| ap.doctor == self}
   end
   
   
