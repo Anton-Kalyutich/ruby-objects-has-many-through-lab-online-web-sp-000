@@ -12,4 +12,6 @@ class Doctor
     @name = name
     self.class.all << self
   end
+  
+  
 end
