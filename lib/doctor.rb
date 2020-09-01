@@ -25,6 +25,4 @@ class Doctor
     appointmens.map {|ap| ap.patient}
   end
   
-  
-  
 end
