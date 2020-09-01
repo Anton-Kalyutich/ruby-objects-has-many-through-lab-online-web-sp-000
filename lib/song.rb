@@ -12,6 +12,7 @@ class Song
     @name = name
     @artist = artist
     @genre = genre
+    self.class.all << self
   end
   
   
