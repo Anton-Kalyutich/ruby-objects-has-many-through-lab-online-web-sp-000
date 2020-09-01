@@ -8,5 +8,10 @@ class Artist
     @@all
   end
   
-  def ini
+  def initialize(name)
+    @name = name
+  end
+  
+  
+  
 end
