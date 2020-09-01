@@ -18,6 +18,8 @@ class Artist
     new_song.artist = self
   end
   
-  
+  def songs
+    
+  end
   
 end
