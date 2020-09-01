@@ -17,6 +17,14 @@ class Patient
     Appintment.new(date, self, doctor)
   end
   
+  def appointmens
+    Appintment.all.select {|ap| ap.doctor == self}
+  end
+  
+  def patients
+    appointmens.map {|ap| ap.patient}
+  end
+  
   
   
   
