@@ -15,6 +15,4 @@ class Appointment
     self.class.all << self
   end
   
-  
-  
 end
