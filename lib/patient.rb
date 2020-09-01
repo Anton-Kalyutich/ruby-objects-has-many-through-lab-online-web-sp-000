@@ -13,7 +13,7 @@ class Patient
     self.class.all << self
   end
   
-  
+  def new_appointment
   
   
 end
