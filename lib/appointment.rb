@@ -8,10 +8,10 @@ class Appointment
     @@all
   end
   
-  def initialize(name, artist, genre)
-    @name = name
-    @artist = artist
-    @genre = genre
+  def initialize(date, patient, doctor)
+    @date = date
+    @patient = patient
+    @doctor = doctor
     self.class.all << self
   end
   
