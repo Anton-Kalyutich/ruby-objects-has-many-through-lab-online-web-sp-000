@@ -13,6 +13,9 @@ class Artist
     self.class.all << self
   end
   
+  def new_song
+  end
+  
   
   
 end
